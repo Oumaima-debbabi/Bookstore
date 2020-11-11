@@ -33,7 +33,7 @@ public class Purchase {
                //lire le prix
                float p=scanner.nextFloat();
                //calculer et afficher le prix totale 
-               if(q>0 &&p>00){
+               if(q>0 &&p>0){
                System.out.println( "the total price for the given quantity= "+(s.calculateTotalPrice(q,p)));
               
                } else{
