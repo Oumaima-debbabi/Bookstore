@@ -38,7 +38,6 @@ public class Purchase {
              switch(choix){
                 case 1:{
                      
-     
                    System.out.println("---------------Add book--------------");
                    System.out.println("Enter the book title");
                    String t=scanner.next();
@@ -107,7 +106,10 @@ public class Purchase {
         
     }
    
-}
+   
+
+    }
+
 
     
     
