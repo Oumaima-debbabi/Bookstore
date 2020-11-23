@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package purchase;
+package purchase.Models;
 class expectionNombre  extends Exception{};
 /**
  *
  * @author asus
  */
 public class Produit {
-   private int qte;
-   private float unitPrice;
+   public int qte;
+   public float unitPrice;
 
-   double calculateTotalPrice(int qte, float unitPrice){
+    public double calculateTotalPrice(int qte, float unitPrice){
        return qte*unitPrice;
    }
 }
